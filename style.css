@@ -1,0 +1,83 @@
+/* basic reset */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #1a1025;
+  color: #e9defa;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: 'Syne', sans-serif;
+}
+
+/* small case-file style labels */
+.label {
+  font-family: monospace;
+  font-size: 13px;
+  letter-spacing: 2px;
+  color: #b8f2e6;
+  margin: 0 0 5px;
+}
+
+/* top part of the page */
+header {
+  text-align: center;
+  padding: 60px 20px 30px;
+}
+
+h1 {
+  color: #ff8a5b;
+  font-size: 48px;
+  margin: 0;
+}
+
+.tagline {
+  color: #b8f2e6;
+}
+
+/* sections */
+section {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  color: #ff8a5b;
+  border-bottom: 2px dashed #ff8a5b;
+  padding-bottom: 5px;
+}
+
+/* project card, like an evidence tag */
+.card {
+  border: 2px dashed #b8f2e6;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.card h3 {
+  color: #ff8a5b;
+  margin: 0 0 10px;
+}
+
+a {
+  color: #ff8a5b;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  font-size: 14px;
+}
+
+/* phones */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 34px;
+  }
+}
